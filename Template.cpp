@@ -4,7 +4,7 @@
 # include <set>
 # define INF 1e9
 # define fast_io ios_base::sync_with_stdio(false);cin.tie(NULL)
-# define fr(a, b) for(int i = a; i < b; i++)
+# define fr(a, b, i) for(int i = a; i < b; i++)
 # define sort(arr) sort(arr.begin(), arr.end())
 typedef long long ll;
 const int mod =  1e9 + 7;
