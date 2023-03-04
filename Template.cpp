@@ -1,12 +1,13 @@
 # include <iostream>
 # include <bits/stdc++.h>
+# include <string>
 # include <vector>
 # include <set>
 # define INF 1e9
 # define fast_io ios_base::sync_with_stdio(false);cin.tie(NULL)
 # define fr(a, b, i) for(int i = a; i < b; i++)
 # define printArray(array) for(auto edge: array) {cout << edge << " ";}
-# define sort(arr) sort(arr.begin(), arr.end())
+# define all(x) x.begin(),x.end() // sort(all(arr))
 # define vi vector<int>
 # define int long long
 # define pb push_back
@@ -15,7 +16,7 @@
 # define sees(s, n) for(int i= 0; i < n; i++) {cin >> x; s.insert(x);}
 const int mod =  1e9 + 7;
 
-int dp[1000005];
+// int dp[1000005];
 
 using namespace std;
 
@@ -33,17 +34,17 @@ signed main()
     int t;
 
     #ifdef LOCAL
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+        freopen("input.txt", "r", stdin);
+        freopen("output.txt", "w", stdout);
     #endif
 
     // cin >> t;
-    // t = 1;
+    t = 1;
 
     while (t--)
     {
         // code here
-        solve()
+        solve();
     }
 
     #ifdef LOCAL
